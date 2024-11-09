@@ -1,0 +1,231 @@
+using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}using System;
+using System.IO;
+
+class TextStatistics
+{
+static void Main()
+{
+// Чтение текста из блокнота
+string filePath = "text.txt";
+string text = File.ReadAllText(filePath);
+
+    // Статистика текста
+    int charCount = text.Length;
+    int charCountWithoutSpaces = text.Replace(" ", "").Length;
+    int wordCount = text.Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+    int pageCount = text.Split(new string[] { "\n\n" }, StringSplitOptions.RemoveEmptyEntries).Length;
+    
+    Console.WriteLine("Статистика текста из блокнота:");
+    Console.WriteLine("Количество символов текста: " + charCount);
+    Console.WriteLine("Количество символов в тексте без пробелов: " + charCountWithoutSpaces);
+    Console.WriteLine("Количество слов: " + wordCount);
+    Console.WriteLine("Количество страниц и обзацев: " + pageCount);
+}
+}
